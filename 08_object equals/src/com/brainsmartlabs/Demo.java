@@ -8,10 +8,10 @@ public class Demo {
 		Test t3 = new Test(5,5);
 		
 		if(t1.equals(t3)) {
-			System.out.println("address is same");	
+			System.out.println("objects are equal");	
 		}
 		else {
-			System.out.println("address is not same");
+			System.out.println("not equal object");
 		}
 
 	}
