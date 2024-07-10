@@ -6,7 +6,7 @@ public class StartWithAndEndWith {
 		
 		String s5 = "cluster";
 		System.out.println(s5.startsWith("clu"));
-		System.out.println(s5.endsWith("ster"));
+		System.out.println(s5.endsWith("ter"));
 
 	}
 
