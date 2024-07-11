@@ -11,11 +11,11 @@ public class StringBufferDemo {
 		sb1.append("1234");
 		System.out.println(sb1);
 		sb1.replace(2, 4, "cluster");
-		System.out.println("after replacing"+sb1);
+		System.out.println("after replacing" + sb1);
 		sb1.delete(3, 6);
 		System.out.println(sb1);
 		sb1.insert(5, "a");
-		System.out.println("after inserting"+sb1);
+		System.out.println("after inserting" + sb1);
 		sb1.reverse();
 		System.out.println(sb1);
 
