@@ -18,6 +18,12 @@ public class DemoOne {
 		else {
 			System.out.println("not equal");
 		}
+		if(x.equals(y)) {
+			System.out.println("inside equals");
+		}
+		else {
+			System.out.println("inside not equals");
+		}
 	}
 
 }
