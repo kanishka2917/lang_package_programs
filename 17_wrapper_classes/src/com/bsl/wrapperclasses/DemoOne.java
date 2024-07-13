@@ -18,7 +18,7 @@ public class DemoOne {
 		else {
 			System.out.println("not equal");
 		}
-		if(x.equals(y)) {
+		if(x.equals(i)) {
 			System.out.println("inside equals");
 		}
 		else {
