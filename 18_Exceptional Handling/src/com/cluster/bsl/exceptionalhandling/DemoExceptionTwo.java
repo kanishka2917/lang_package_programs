@@ -20,9 +20,6 @@ public class DemoExceptionTwo {
 		} catch (Exception e) {
 			System.out.println("cannot divide by zero"+e);
 		}
-		catch(ArrayIndexOutOfBoundException e) {
-			System.out.println("maximum number of values is 4");
-		}
 		System.out.println(k);
 
 	}
