@@ -2,6 +2,8 @@ package com.cluster.bsl.exceptionalhandling;
 
 public class DemoExceptionTwo {
 
+	private static int[] a;
+
 	public static void main(String[] args) {
 
 		int i, j, k = 0;
