@@ -10,11 +10,10 @@ public class TryCatchDemoFour {
 			int a[] = new int[5];
 			a[3] = 109;
 		}
-		catch(ArrayIndexOutOfBoundException e)
+		catch(ArrayIndexOutOfBoundsException e)
 		{
 			System.out.println(e);
 		}
 		System.out.println("end main");
 	}
-
 }
