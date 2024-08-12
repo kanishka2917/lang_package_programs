@@ -13,7 +13,7 @@ public class ThrowDemoTwo {
 		}
 		catch(NumberFormatException e) {
 			String s2 = "919";
-			int pt = Integer.parseInt(s2);
+			int p = Integer.parseInt(s2);
 			System.out.println(x);
 		}
 	}
