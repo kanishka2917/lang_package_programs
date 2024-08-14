@@ -4,13 +4,17 @@ public class DemoTwo {
 
 	public static void main(String[] args) {
 	
+		A a = new A();
 		try {
-			System.out.println("begin main");
-			return;
+			a.m1(7, 8);
+		} catch (KaniExp e) {
+			System.out.println("Caught Kani Exp");;
 		}
-		finally {
-			System.out.println("end main");
-		}
+		
+		B b = new B();
+		b.m1(5, 7);
 	}
+	
+	
 
 }

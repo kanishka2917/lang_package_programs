@@ -1,20 +1,15 @@
 package com.bsl.throwandthow;
 
 public class Hai {
-	void m1(int x, int y) {
+	int m1(int x, int y) throws ArithmeticException{
 		int z = 0;
-		z = x/y;
-		int p = 0;
-		try {
-			if(x==0&&y==0) {
-				throw new ArithmeticException();
-							}
-			else {
-				p = x / y;
+		if(y == 0) {
+			System.out.println("inside if y == 0");
+			throw new ArithmeticException();
 		}
-	}
-	finally{
-		System.out.println("im finally");
-	}
+		
+		z = x/y;
+		System.out.println("Value of z is : " + z);
+		return z;
 	}
 }

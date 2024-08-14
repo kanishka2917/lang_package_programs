@@ -2,18 +2,14 @@ package com.bsl.iopackages;
 
 public class A {
 
-	public int m1(int x, int y) {
-		try {
+	public void m1(int x, int y) throws KaniExp {
+	
 			if(x>y) {
 				System.out.println("x is greater than y");
 			}
 			else {
+				throw new KaniExp();
 			}
-		}
-	}
-}
-class B extends A{
-	public int m1(int x, int y) {
-	
+		
 	}
 }
