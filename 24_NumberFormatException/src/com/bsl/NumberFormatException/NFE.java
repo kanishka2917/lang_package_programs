@@ -4,10 +4,15 @@ public class NFE {
 
 	public static void main(String[] args) {
 		
-		String str = "kanishka";
+		String str = "123";
+		try {
 		int a = Integer.parseInt(str);
 		System.out.println(a);
-		System.out.println("string NumberFormatException");
+		}
+		
+		catch (NumberFormatException n) {
+			System.out.println("String "+str+" cannot be converted to integer");
+		}
 	}
 
 }
