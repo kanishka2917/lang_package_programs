@@ -6,7 +6,7 @@ public class NestedTry {
 		try {
 			try {
 				int a[]= {10,20,30};
-				System.out.println(a[5]);
+				System.out.println(a[2]);
 			}
 			catch (ArrayIndexOutOfBoundsException a) {
 				System.out.println(a);
