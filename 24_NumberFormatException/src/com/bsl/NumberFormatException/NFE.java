@@ -13,6 +13,7 @@ public class NFE {
 		catch (NumberFormatException n) {
 			System.out.println("String "+str+" cannot be converted to integer");
 		}
+		System.out.println("main method ended");
 	}
 
 }
