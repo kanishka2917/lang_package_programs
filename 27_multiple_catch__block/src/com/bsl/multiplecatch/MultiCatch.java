@@ -23,5 +23,4 @@ public class MultiCatch {
 			System.out.println("all type exception handled");
 		}
 	}
-
 }
