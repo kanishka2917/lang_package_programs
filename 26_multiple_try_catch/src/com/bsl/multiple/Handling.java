@@ -18,6 +18,7 @@ public class Handling {
 			System.out.println("beyond the array limit");
 		}
 
+		// why do we use multiple try catch
 	}
 
 }
