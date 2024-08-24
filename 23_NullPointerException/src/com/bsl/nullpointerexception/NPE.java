@@ -1,11 +1,16 @@
 package com.bsl.nullpointerexception;
 
-public class NullPointerException {
+public class NPE {
 
 	public static void main(String[] args) {
 		
 		String str =  null;
+		try {
 		System.out.println(str.toUpperCase());
+		}
+		catch(NullPointerException n) {
+			System.out.println("null connot be casted");
+		}
 	}
 
 }
