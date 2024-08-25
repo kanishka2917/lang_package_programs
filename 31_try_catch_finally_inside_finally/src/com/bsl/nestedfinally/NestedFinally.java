@@ -10,7 +10,13 @@ public class NestedFinally {
 		} catch (Exception e) {
 			System.out.println(e);
 		} finally {
-			System.out.println(10 / 0);
+			try {
+				System.out.println(10 / 2);
+			} catch (ArithmeticException a) {
+				System.out.println(a);
+			} finally {
+				System.out.println("im nested finally");
+			}
 		}
 		System.out.println("main method ended");
 	}
