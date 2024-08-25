@@ -7,9 +7,14 @@ public class NestedCatch {
 		try {
 			System.out.println(10 / 0);
 		} catch (Exception e) {
-			String a = null;
-			System.out.println(a.toLowerCase());
+			try {
+				String a = null;
+				System.out.println(a.toLowerCase());
+			} catch (NullPointerException n) {
+				System.err.println("null value cant be converted");
+			}
 		}
+
 		System.out.println("main method ended");
 	}
 
