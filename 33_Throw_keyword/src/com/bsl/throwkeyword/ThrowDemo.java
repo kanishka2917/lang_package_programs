@@ -3,8 +3,9 @@ package com.bsl.throwkeyword;
 public class ThrowDemo {
 
 	public static void main(String[] args) {
-
-		throw new InvalidageException("/by zero");
+		
+		System.out.println(10/0);
+		throw new ArithmeticException("/by zero");
 	}
 
 }
