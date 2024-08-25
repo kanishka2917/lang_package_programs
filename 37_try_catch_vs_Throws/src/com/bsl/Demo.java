@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 public class Demo {
 
-	public static void wait() {
+	public static void Wait() throws InterruptedException {
 		for (int i = 1; i <= 10; i++) {
 			System.out.println(i);
 			Thread.sleep(1000);
@@ -12,7 +12,7 @@ public class Demo {
 		}
 	}
 
-	public static void main(String[] args) {
-		wait();
+	public static void main(String[] args) throws InterruptedException {
+		Wait();
 	}
 }
