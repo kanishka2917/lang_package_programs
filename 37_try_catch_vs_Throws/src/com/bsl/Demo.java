@@ -14,6 +14,7 @@ public class Demo {
 
 	public static void main(String[] args) throws InterruptedException {
 		Wait();
+		System.out.println(10 / 0);
 		System.out.println("main method ended");
 	}
 }
