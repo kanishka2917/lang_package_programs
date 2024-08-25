@@ -3,10 +3,15 @@ package com.bsl;
 public class Demo {
 
 	public static void main(String[] args) {
-		m1();
+		try {
+			m1();
+		} catch (ArithmeticException a) {
+			System.out.println("exceptional handeled by main method..");
+		}
 	}
 
 	public static void m1() {
+
 		m2();
 	}
 
