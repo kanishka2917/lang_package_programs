@@ -13,7 +13,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		try {
-			vote(12);
+			vote(22);
 		} catch (Exception e) {
 			System.out.println(e);
 		}
