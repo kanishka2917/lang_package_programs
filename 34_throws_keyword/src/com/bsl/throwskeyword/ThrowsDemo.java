@@ -2,7 +2,7 @@ package com.bsl.throwskeyword;
 
 public class ThrowsDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 
 		for (int i = 1; i <= 10; i++) {
 			System.out.println(i);
