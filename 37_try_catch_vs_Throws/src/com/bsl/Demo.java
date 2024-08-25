@@ -12,9 +12,13 @@ public class Demo {
 		}
 	}
 
-	public static void main(String[] args) throws InterruptedException {
-		Wait();
-		System.out.println(10 / 0);
+	public static void main(String[] args) {
+		try {
+			Wait();
+			System.out.println(10 / 0);
+		} catch (Exception e) {
+			System.out.println("exception handled..");
+		}
 		System.out.println("main method ended");
 	}
 }
