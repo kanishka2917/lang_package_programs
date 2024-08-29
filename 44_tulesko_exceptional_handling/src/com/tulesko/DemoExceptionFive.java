@@ -12,11 +12,6 @@ public class DemoExceptionFive {
 			String str = "";
 			str = br.readLine();
 		} 
-		catch (Exception e) 
-		{
-			System.out.println(e);
-		}
-
 	}
 
 }
